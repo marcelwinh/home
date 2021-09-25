@@ -12,32 +12,36 @@ const mainBody = {
   message: " | Engineer | Programmer | Tech Geek | Car Geek | ",
   icons: [
     {
-      image: "fa-github",
+      image: "fab fa-github",
       url: "https://github.com/marcelwinh",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/mwinheim",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/mawinheim/",
-    },
-    {
-      image: "fa-linkedin",
+      image: "fab fa-linkedin",
       url: "https://www.linkedin.com/in/marcel-winheim-224797ba/",
     },
     {
-      image: "fa-xing",
+      image: "fab fa-xing",
       url: "https://www.xing.com/profile/Marcel_Winheim/cv?sc_o=mxb_p",
     },
     {
-      image: "fa-twitter",
+      image: "fab fa-twitter",
       url: "https://twitter.com/WinheimM",
     },
     {
-      image: "fa-home",
+      image: "fas fa-home",
       url: "https://winheim.net",
+    },
+    {
+      image: "fab fa-facebook",
+      url: "https://www.facebook.com/mwinheim",
+    },
+    {
+      image: "fab fa-instagram",
+      url: "https://www.instagram.com/mawinheim/",
+    },
+    {
+      image: "fab fa-youtube",
+      url: "https://www.youtube.com/channel/UCGKbwWRrd_4lX9RQI2QhzEg",
     },
   ],
 };
@@ -77,6 +81,23 @@ const repos = {
   gitHubUsername: "marcelwinh", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
+};
+
+const achievements = {
+  show: true,
+  heading: "Achievements",
+  achievements: [
+    {
+      img: "https://images.credly.com/size/680x680/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png",
+      link: "https://www.credly.com/badges/f808edf7-ac05-41e4-958d-b8954b0c9946?source=github",
+      altText: "Microsoft Certified: Azure Fundamentals"
+    },
+    {
+      img: "https://images.credly.com/size/680x680/images/78e39333-d0db-4931-b231-13bdb37040cc/Programming_in_C_23-01.png",
+      link: "https://www.credly.com/badges/1a0c461d-d89f-4659-af35-b0b975db4fc8?source=github",
+      altText: "Exam 483: Programming in C#"
+    },
+  ]
 };
 
 // Leadership SECTION
@@ -163,4 +184,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, achievements };
